@@ -6,9 +6,9 @@ import './App.css';
 
 function App() {
   const listadoProductos = [
-    { id: 1, nombre: 'Producto Alfalfa', precio: 1500, descripcion: 'Fresco y de lote seleccionado.' },
-    { id: 2, nombre: 'Semillas Orgánicas', precio: 3200, descripcion: 'Énfasis en alta germinación.' },
-    { id: 3, nombre: 'Kit de Cultivo', precio: 5000, descripcion: 'Ideal para iniciar tu huerta.' }
+    { id: 1, nombre: 'Gorra', precio: 1500, descripcion: 'Dias soleados' },
+    { id: 2, nombre: 'buzo', precio: 3200, descripcion: 'Ideal para el uso diario' },
+    { id: 3, nombre: 'Camisa', precio: 5000, descripcion: 'Ideal para el verano.' }
   ];
 
   return (
@@ -17,6 +17,7 @@ function App() {
       <Navbar />
 
       <main style={{ padding: '20px', flex: '1' }}>
+        
         <h1 style={{ color: 'var(--color-pine)' }}>INICIO REVUELTA</h1>
         <h2 style={{ color: 'var(--color-pine)' }}>Catálogo Revuelta</h2>
 

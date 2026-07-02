@@ -31,6 +31,8 @@ export default function Footer() {
           </p>
         </div>
 
+
+
         <div style={{ flex: '1 1 200px' }}>
           <h4 style={{ color: 'var(--color-paper2)', margin: '0 0 12px 0', fontSize: '16px' }}>
             Enlaces
@@ -49,6 +51,9 @@ export default function Footer() {
         </div>
       </div>
 
+
+
+
       <div style={{
         borderTop: '1px solid rgba(255, 255, 255, 0.1)',
         marginTop: '30px',
@@ -64,7 +69,6 @@ export default function Footer() {
   );
 }
 
-// Estilo reutilizable para los enlaces interactivos
 const linkStyle = {
   color: 'var(--color-paper2)',
   textDecoration: 'none',

@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Este componente hijo recibe la información por Props
 export default function ProductCard({ producto }) {
   return (
     <div style={{
@@ -11,6 +10,7 @@ export default function ProductCard({ producto }) {
       maxWidth: '250px',
       boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
     }}>
+
       <h3 style={{ color: 'var(--color-pine)' }}>{producto.nombre}</h3>
       <p style={{ color: 'var(--color-ink)' }}>{producto.descripcion}</p>
       
@@ -21,6 +21,7 @@ export default function ProductCard({ producto }) {
         borderRadius: '4px',
         fontWeight: 'bold'
       }}>
+        
         ${producto.precio}
       </span>
     </div>
